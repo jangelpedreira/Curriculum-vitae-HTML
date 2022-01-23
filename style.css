@@ -1,0 +1,99 @@
+* {box-sizing:border-box}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left-container {
+    background-color: rgb(53, 87, 121);
+    color: white;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding-left: 1em;
+   
+    font-size: medium;
+}
+
+.professional-skills ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.professional-skills p {
+    margin-left: 10px;
+}
+
+.photo-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.name {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.profession{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.title {
+    display:flex;
+    align-items: center;
+    color: rgb(53, 87, 121);
+    padding-left: 1em;
+}
+
+.title::after {
+    content: '';
+    flex: 1;
+    margin-left: 1rem;
+    height: 1px;
+    background-color: rgb(53, 87, 121);
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.experience h4 {
+    color:  rgb(53, 87, 121);
+}
+
+.academic-training h4 {
+    color:  rgb(53, 87, 121);
+}
+
+.licenses-certifications h4 {
+    color:  rgb(53, 87, 121);
+}
+
+.skills-container {
+    padding-left: 10px;
+    width: 100%;
+}
+
+.skills {
+    text-align: right;
+    
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    color: rgb(53, 87, 121);
+    font-weight: bold;
+    background-color: white;
+  }
+
+.gestion_proyectos {width: 90%;}
+.gis {width: 85%;}
+.desarrollo_web {width: 70%;}
+.desarrollo_movil {width: 60%;}
