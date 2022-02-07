@@ -36,6 +36,7 @@
     border-radius: 50%;
 }
 
+
 .name {
     padding-left: 10px;
     font-size: 30px;
@@ -64,6 +65,14 @@
 
 h3 {
     padding-left: 10px;
+}
+
+.heading-experience i {
+    margin-right:20px;
+}
+.heading-experience h3, .heading-experience i {
+    display:inline-block;
+    vertical-align:middle;
 }
 
 .experience h4 {
@@ -97,3 +106,21 @@ h3 {
 .gis {width: 85%;}
 .desarrollo_web {width: 70%;}
 .desarrollo_movil {width: 60%;}
+
+
+#contact-button-container {
+    align-items: center;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+#contact-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
